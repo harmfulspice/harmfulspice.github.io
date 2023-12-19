@@ -55,6 +55,38 @@
         button:hover {
             background-color: #45a049;
         }
+
+        /* Стили для кнопки загрузки файла */
+        .file-upload {
+            display: block;
+            width: 100%;
+            padding: 8px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .file-upload:hover {
+            background-color: #2980b9;
+        }
+
+        /* Скрытие стандартного input для файла */
+        input[type="file"] {
+            display: none;
+        }
+
+        /* Стили для области предпросмотра фотографии */
+        #preview {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        #preview img {
+            max-width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 <body>
@@ -64,7 +96,7 @@
     </header>
 
     <main>
-        <form action="обработчик.php" method="post">
+        <form action="обработчик.php" method="post" enctype="multipart/form-data">
             <div>
                 <label for="wheelsetNumber">Номер колесной пары:</label>
                 <input type="text" id="wheelsetNumber" name="wheelsetNumber" required>
@@ -93,22 +125,64 @@
             <div>
                 <label for="axisType">Тип оси:</label>
                 <select id="axisType" name="axisType">
-                    <option value="fixed">Фиксированная</option>
-                    <option value="floating">Плавающая</option>
+                    <option value="РУ1Ш">РУ1Ш</option>
+                    <option value="РУ1">РУ1</option>
+                    <option value="РВ2Ш">РВ2Ш</option>
                 </select>
             </div>
 
             <div>
                 <label for="bearingType">Тип подшипника:</label>
                 <select id="bearingType" name="bearingType">
-                    <option value="ball">Шариковый</option>
-                    <option value="roller">Роликовый</option>
+                    <option value="BRENCO">BRENCO</option>
+                    <option value="BRENCO 130*250*150">BRENCO 130*250*150</option>
+                    <option value="BRENCO 130*250*160">BRENCO 130*250*160</option>
+                    <option value="BRENCO 150*250*160">BRENCO 150*250*160</option>
+                    <option value="SKF">SKF</option>
+                    <option value="SKF 130*230*150">SKF 130*230*150</option>
+                    <option value="SKF 130*250*160">SKF 130*250*160</option>
+                    <option value="SKF 150*250*160">SKF 150*250*160</option>
+                    <option value="TBU LYC 6772">TBU LYC 6772</option>
+                    <option value="TBU SPZ 2569">TBU SPZ 2569</option>
+                    <option value="TBU ZWZ 6773">TBU ZWZ 6773</option>
+                    <option value="TIMKEN">TIMKEN</option>
                 </select>
             </div>
+
+            <!-- Кнопка для загрузки файла -->
+            <label for="photoUpload" class="file-upload">Прикрепить фотографию</label>
+            <input type="file" id="photoUpload" name="photoUpload">
+
+            <!-- Область предпросмотра загруженного фото -->
+            <div id="preview"></div>
 
             <button type="submit">Отправить</button>
         </form>
     </main>
+
+    <script>
+        // Обработчик изменения файла для предпросмотра
+        document.getElementById('photoUpload').addEventListener('change', function () {
+            var preview = document.getElementById('preview');
+            var file = this.files[0];
+
+            // Очистить предыдущий предпросмотр
+            while (preview.firstChild) {
+                preview.removeChild(preview.firstChild);
+            }
+
+            // Проверить, что файл является изображением
+            if (file && file.type.startsWith('image/')) {
+                var img = document.createElement('img');
+                img.setAttribute('src', URL.createObjectURL(file));
+                preview.appendChild(img);
+            } else {
+                var message = document.createElement('p');
+                message.textContent = 'Выбранный файл не является изображением';
+                preview.appendChild(message);
+            }
+        });
+    </script>
 
 </body>
 </html>
