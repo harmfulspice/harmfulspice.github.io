@@ -162,8 +162,9 @@
 
     <script>
         // Подставить номер КП из url
-        var currentUrl = window.location.href;
+        var currentUrl = window.location.search;
         const wheel = new URLSearchParams(currentUrl).get("wheel");
+        console.log(wheel);
         document.getElementById('wheelsetNumber').value = wheel;
         
         // Обработчик изменения файла для предпросмотра
