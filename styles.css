@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Серый цвет фона */
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    margin: 15px; /* Установка отступа между блоками в 15 пикселей */
+    background-color: #ffffff; /* Белый цвет фона для контейнера с формой */
+    padding: 20px; /* Добавление внутреннего отступа для формы */
+    border-radius: 8px; /* Закругление углов контейнера с формой */
+}
+
+form div {
+    margin-bottom: 15px; /* Установка отступа между блоками формы в 15 пикселей */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Стили для кнопки загрузки файла */
+.file-upload {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.file-upload:hover {
+    background-color: #2980b9;
+}
+
+/* Скрытие стандартного input для файла */
+input[type="file"] {
+    display: none;
+}
+
+/* Стили для области предпросмотра фотографии */
+#preview {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#preview img {
+    max-width: 100%;
+    height: auto;
+}
