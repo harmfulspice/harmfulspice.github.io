@@ -16,7 +16,7 @@
             <div class="number">
                 <div class="numberFact">
                     <h2>Номер КП:</h2>
-                    <input type="text" name="numberGVC">
+                    <input type="text" name="numberGVC" id="wheelsetNumber">
                     <input type="text" name="numberFact">
                 </div>
                 <div class="GVC">
@@ -35,12 +35,37 @@
             <div class="paramContainer">
                 <div class = "paramObodGreb">
                     <div>
-                        <label for="wheelDiameter">Ширина обода (мм):</label>
+                        <label for="wheelDiameter">Ширина обода:</label>
                         <input type="number" id="wheelDiameter" name="wheelDiameter" required>
                     </div>
                     <div>
-                        <label for="flangeThickness">Толщина гребня (мм):</label>
+                        <label for="flangeThickness">Толщина гребня:</label>
                         <input type="number" id="flangeThickness" name="flangeThickness" required>
+                    </div>
+                    <div>
+                        <label for="axisType">Тип оси:</label>
+                        <select id="axisType" name="axisType">
+                            <option value="РУ1Ш">РУ1Ш</option>
+                            <option value="РУ1">РУ1</option>
+                            <option value="РВ2Ш">РВ2Ш</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="bearingType">Тип подшипника:</label>
+                        <select id="bearingType" name="bearingType">
+                            <option value="BRENCO">BRENCO</option>
+                            <option value="BRENCO 130*250*150">BRENCO 130*250*150</option>
+                            <option value="BRENCO 130*250*160">BRENCO 130*250*160</option>
+                            <option value="BRENCO 150*250*160">BRENCO 150*250*160</option>
+                            <option value="SKF">SKF</option>
+                            <option value="SKF 130*230*150">SKF 130*230*150</option>
+                            <option value="SKF 130*250*160">SKF 130*250*160</option>
+                            <option value="SKF 150*250*160">SKF 150*250*160</option>
+                            <option value="TBU LYC 6772">TBU LYC 6772</option>
+                            <option value="TBU SPZ 2569">TBU SPZ 2569</option>
+                            <option value="TBU ZWZ 6773">TBU ZWZ 6773</option>
+                            <option value="TIMKEN">TIMKEN</option>
+                        </select>
                     </div>
                 </div>
                 
@@ -51,40 +76,22 @@
                     </div>
                     <div>
                         <label for="lastFormationDate">Дата последнего формирования:</label>
-                        <input type="date" id="lastFormationDate" name="lastFormationDate">
+                        <input type="text" id="lastFormationDate" name="lastFormationDate">
+                    </div>
+                    <div>
+                        <label for="lastMark">Клеймо последнего ремонта:</label>
+                        <input type="text" id="lastMark" name="lastMark">
+                    </div>
+                    <div>
+                        <label for="lastFormationDate">Дата последнего ремонта:</label>
+                        <input type="text" id="lastFormationDate" name="lastFormationDate">
                     </div>
                 </div>
             </div>
 
 
-            
 
-            <div>
-                <label for="axisType">Тип оси:</label>
-                <select id="axisType" name="axisType">
-                    <option value="РУ1Ш">РУ1Ш</option>
-                    <option value="РУ1">РУ1</option>
-                    <option value="РВ2Ш">РВ2Ш</option>
-                </select>
-            </div>
 
-            <div>
-                <label for="bearingType">Тип подшипника:</label>
-                <select id="bearingType" name="bearingType">
-                    <option value="BRENCO">BRENCO</option>
-                    <option value="BRENCO 130*250*150">BRENCO 130*250*150</option>
-                    <option value="BRENCO 130*250*160">BRENCO 130*250*160</option>
-                    <option value="BRENCO 150*250*160">BRENCO 150*250*160</option>
-                    <option value="SKF">SKF</option>
-                    <option value="SKF 130*230*150">SKF 130*230*150</option>
-                    <option value="SKF 130*250*160">SKF 130*250*160</option>
-                    <option value="SKF 150*250*160">SKF 150*250*160</option>
-                    <option value="TBU LYC 6772">TBU LYC 6772</option>
-                    <option value="TBU SPZ 2569">TBU SPZ 2569</option>
-                    <option value="TBU ZWZ 6773">TBU ZWZ 6773</option>
-                    <option value="TIMKEN">TIMKEN</option>
-                </select>
-            </div>
 
             <!-- Кнопка для загрузки файла -->
             <label for="photoUpload" class="file-upload">Прикрепить фотографию</label>

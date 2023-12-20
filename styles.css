@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    font-size: 12px;
     background-color: #f2f2f2; /* Серый цвет фона */
 }
 
@@ -51,29 +52,36 @@ button:hover {
 
 .number{
 	display: flex;
-	align-items: center;
-}
-
-.GVC input{
-	width: 25%;
-}
-
-.paramContainer{
-	width: 100vw;
-	display: flex;
-	align-items: center;
+	width: 100%;
 	justify-content: center;
 }
 
+.numberFact{
+	width: 40%;
+}
+
+.GVC{
+	width: 60%;
+}
+
+.GVC input{
+	width: 10%;
+}
+
+.paramContainer{
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	width: 100vw;
+}
+
 .paramObodGreb{
-	width: 45%;
-	margin: 0;
+	width: 30vw;
+	padding-right: 15px;
 }
 
 .paramForm{
-	flex-basis: revert;
-	width: 45%;
-	margin: 0;
+	width: 55vw;
 }
 
 
