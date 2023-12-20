@@ -19,12 +19,9 @@ main {
     border-radius: 8px; /* Закругление углов контейнера с формой */
 }
 
-form div {
-    margin-bottom: 15px; /* Установка отступа между блоками формы в 15 пикселей */
-}
+
 
 label {
-    display: block;
     margin-bottom: 5px;
 }
 
@@ -32,8 +29,8 @@ input,
 select {
     width: 100%;
     padding: 8px;
-    margin-bottom: 10px;
     box-sizing: border-box;
+    margin-bottom: 5px;
 }
 
 button {
@@ -50,10 +47,15 @@ button:hover {
     background-color: #45a049;
 }
 
+.choise{
+	margin-bottom: 5px;
+}
+
 .number{
 	display: flex;
 	width: 100%;
 	justify-content: center;
+	margin-bottom: 15px;
 }
 
 .numberFact{
@@ -64,8 +66,13 @@ button:hover {
 	width: 60%;
 }
 
+
 .GVC input{
+	margin: 0px;
+	margin-left: 5px;
+	vertical-align: middle;
 	width: 10%;
+	height: 35px;
 }
 
 .paramContainer{
@@ -85,9 +92,29 @@ button:hover {
 }
 
 
+#bearingType{
+	font-size: 10px;
+}
 
+#axisType{
+	font-size: 10px;
+}
 
+.remont{
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	width: 100vw;
+}
 
+.paramRemont{
+	width: 30vw;
+	padding-right: 15px;
+}
+
+.paramRelevance{
+	width: 55vw;
+}
 
 
 /* Стили для кнопки загрузки файла */
