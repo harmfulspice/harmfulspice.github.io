@@ -1,4 +1,5 @@
 // Подставить номер КП из url
+let tg = window.Telegram.WebApp
 var currentUrl = window.location.search;
 const wheel = new URLSearchParams(currentUrl).get("wheel");
 console.log(wheel);
@@ -24,4 +25,11 @@ document.getElementById('photoUpload').addEventListener('change', function () {
         message.textContent = 'Выбранный файл не является изображением';
         preview.appendChild(message);
     }
+    });
+
+// Обработка данных для отправки в телеграм
+document.getElementById('wheelDiameter').addEventListener('change', function() {
+    var data = document.getElementById('wheelDiameter').value;
+    tg.sendData(JSON.stringify(data));
+    console.log(data);
 });

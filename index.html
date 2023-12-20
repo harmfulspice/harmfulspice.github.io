@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
-
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <title>Ввод данных по колесной паре вагона</title>
 </head>
 <body>
@@ -12,7 +12,7 @@
         <h1>Ввод данных по колесной паре вагона</h1>
     </header>
     <main>
-        <form action="обработчик.php" method="post" enctype="multipart/form-data">
+        <form enctype="multipart/form-data">
             <div class="number">
                 <div class="numberFact">
                     <h2>Номер КП:</h2>
@@ -118,8 +118,6 @@
                 </select>
             </div>
 
-
-
             <!-- Кнопка для загрузки файла -->
             <label for="photoUpload" class="file-upload">Прикрепить фотографию</label>
             <input type="file" id="photoUpload" name="photoUpload">
@@ -127,7 +125,7 @@
             <!-- Область предпросмотра загруженного фото -->
             <div id="preview"></div>
 
-            <button type="submit">Отправить</button>
+            <button type="submit" id='submit'>Отправить</button>
         </form>
     </main>
     <script async src="script.js"></script>
