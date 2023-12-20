@@ -161,6 +161,10 @@
     </main>
 
     <script>
+        // Подставить номер КП из url
+        var currentUrl = window.location.href;
+        document.getElementById('wheelsetNumber').textContent = currentUrl
+        
         // Обработчик изменения файла для предпросмотра
         document.getElementById('photoUpload').addEventListener('change', function () {
             var preview = document.getElementById('preview');
