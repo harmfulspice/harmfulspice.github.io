@@ -13,30 +13,51 @@
     </header>
     <main>
         <form action="обработчик.php" method="post" enctype="multipart/form-data">
-            <div>
-                <label for="wheelsetNumber">Номер колесной пары:</label>
-                <input type="text" id="wheelsetNumber" name="wheelsetNumber" required>
+            <div class="number">
+                <div class="numberFact">
+                    <h2>Номер КП:</h2>
+                    <input type="text" name="numberGVC">
+                    <input type="text" name="numberFact">
+                </div>
+                <div class="GVC">
+                    <h2>Совпадение с ГВЦ</h2>
+                    <div>
+                        <input type="radio" name="gvc">
+                        Совпадает
+                    </div>
+                    <div>
+                        <input type="radio" name="gvc">
+                        Не совпадает
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="paramContainer">
+                <div class = "paramObodGreb">
+                    <div>
+                        <label for="wheelDiameter">Ширина обода (мм):</label>
+                        <input type="number" id="wheelDiameter" name="wheelDiameter" required>
+                    </div>
+                    <div>
+                        <label for="flangeThickness">Толщина гребня (мм):</label>
+                        <input type="number" id="flangeThickness" name="flangeThickness" required>
+                    </div>
+                </div>
+                
+                <div class="paramForm">
+                    <div>
+                        <label for="lastMark">Клеймо последнего формирования:</label>
+                        <input type="text" id="lastMark" name="lastMark">
+                    </div>
+                    <div>
+                        <label for="lastFormationDate">Дата последнего формирования:</label>
+                        <input type="date" id="lastFormationDate" name="lastFormationDate">
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <label for="wheelDiameter">Ширина обода (мм):</label>
-                <input type="number" id="wheelDiameter" name="wheelDiameter" required>
-            </div>
 
-            <div>
-                <label for="flangeThickness">Толщина гребня (мм):</label>
-                <input type="number" id="flangeThickness" name="flangeThickness" required>
-            </div>
-
-            <div>
-                <label for="lastMark">Клеймо последнего формирования:</label>
-                <input type="text" id="lastMark" name="lastMark">
-            </div>
-
-            <div>
-                <label for="lastFormationDate">Дата последнего формирования:</label>
-                <input type="date" id="lastFormationDate" name="lastFormationDate">
-            </div>
+            
 
             <div>
                 <label for="axisType">Тип оси:</label>

@@ -14,7 +14,7 @@ header {
 main {
     margin: 15px; /* Установка отступа между блоками в 15 пикселей */
     background-color: #ffffff; /* Белый цвет фона для контейнера с формой */
-    padding: 20px; /* Добавление внутреннего отступа для формы */
+    padding: 5px; /* Добавление внутреннего отступа для формы */
     border-radius: 8px; /* Закругление углов контейнера с формой */
 }
 
@@ -48,6 +48,39 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
+.number{
+	display: flex;
+	align-items: center;
+}
+
+.GVC input{
+	width: 25%;
+}
+
+.paramContainer{
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.paramObodGreb{
+	width: 45%;
+	margin: 0;
+}
+
+.paramForm{
+	flex-basis: revert;
+	width: 45%;
+	margin: 0;
+}
+
+
+
+
+
+
 
 /* Стили для кнопки загрузки файла */
 .file-upload {
