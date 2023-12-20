@@ -28,7 +28,7 @@ document.getElementById('photoUpload').addEventListener('change', function () {
     });
 
 // Обработка данных для отправки в телеграм
-document.getElementById('wheelDiameter').addEventListener('change', function() {
+document.getElementById('submit').addEventListener('click', function() {
     var data = document.getElementById('wheelDiameter').value;
     tg.sendData(JSON.stringify(data));
     console.log(data);
