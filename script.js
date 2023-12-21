@@ -4,7 +4,7 @@ var currentUrl = window.location.search;
 const wheel = new URLSearchParams(currentUrl).get("wheel");
 console.log(wheel);
 document.getElementById('wheelsetNumber').value = wheel;
-rg.ready()
+tg.ready()
 tg.expand()
 
 // Обработчик изменения файла для предпросмотра
