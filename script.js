@@ -4,6 +4,8 @@ var currentUrl = window.location.search;
 const wheel = new URLSearchParams(currentUrl).get("wheel");
 console.log(wheel);
 document.getElementById('wheelsetNumber').value = wheel;
+rg.ready()
+tg.expand()
 
 // Обработчик изменения файла для предпросмотра
 document.getElementById('photoUpload').addEventListener('change', function () {
@@ -28,8 +30,17 @@ document.getElementById('photoUpload').addEventListener('change', function () {
     });
 
 // Обработка данных для отправки в телеграм
-document.getElementById('submit').addEventListener('click', function() {
-    var data = document.getElementById('wheelDiameter').value;
+document.getElementById('submit').addEventListener('ontouchend', function() {
+    var obod = document.getElementById('wheelDiameter').value;
+    var greb = document.getElementById('flangeThickness').value;
+    var bearing = document.getElementById('bearingType').value;
+    var axle = document.getElementById('axisType').value;
+    var form = document.getElementById('lastFormationDate').value;
+    var formFactory = document.getElementById('lastMark').value;
+    var status = document.getElementById('remontType').value;
+    var relevance = document.getElementById('relevanceType').value;
+    let data = [obod,greb,bearing,axle,form,formFactory,status,relevance]
+    //var kod = document.getElementById('wheelDiameter').value;
+    //var srRem = document.getElementById('wheelDiameter').value;
     tg.sendData(JSON.stringify(data));
-    console.log(data);
 });
