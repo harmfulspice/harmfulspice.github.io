@@ -88,7 +88,7 @@ button:hover {
 }
 
 .paramForm{
-	width: 55vw;
+	width: calc(65vw - 15px);
 }
 
 
@@ -105,6 +105,7 @@ button:hover {
 	margin: 0px;
 	display: flex;
 	width: 100vw;
+
 }
 
 .paramRemont{
@@ -116,10 +117,15 @@ button:hover {
 	width: 55vw;
 }
 
+.kodType{
+	width: calc(100vw - 41px);
+}
+
 
 /* Стили для кнопки загрузки файла */
 .file-upload {
     display: block;
+    width: calc(100vw - 41px);
     padding: 8px;
     background-color: #3498db;
     color: #fff;

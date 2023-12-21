@@ -17,16 +17,16 @@
                 <div class="numberFact">
                     <h2>Номер КП:</h2>
                     <input type="text" name="numberGVC" id="wheelsetNumber" disabled>
-                    <input type="text" name="numberFact" disabled>
+                    <input type="text" name="numberFact" id="numberFact" disabled>
                 </div>
                 <div class="GVC">
                     <h2>Совпадение с ГВЦ</h2>
                     <div class="choise">
-                        <input type="radio" name="gvc" checked>
+                        <input type="radio" name="gvc" id="gvcY" checked>
                         <label class="text">Совпадает</label>
                     </div>
                     <div class="choise">
-                        <input type="radio" name="gvc">
+                        <input type="radio" name="gvc" id="gvcN">
                         Не совпадает
                     </div>
                     
@@ -36,7 +36,7 @@
                 <div class = "paramObodGreb">
                     <div>
                         <label for="wheelDiameter">Ширина обода:</label>
-                        <input type="number" id="wheelDiameter" name="wheelDiameter" maxlength="2" required>
+                        <input type="number" id="wheelDiameter" name="wheelDiameter" required>
                     </div>
                     <div>
                         <label for="flangeThickness">Толщина гребня:</label>
@@ -110,9 +110,9 @@
                     </select>
                 </div>
             </div>
-            <div class="paramKod">
-                <label for="relevance">Код неисправности:</label>
-                <select id="relevanceType" name="relevanceType">
+            <div class="kodType">
+                <label for="kod">Код неисправности:</label>
+                <select id="kod" name="kodType">
                     <option>Востребована</option>
                     <option>Не востребована</option>
                 </select>
