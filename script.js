@@ -30,7 +30,7 @@ document.getElementById('photoUpload').addEventListener('change', function () {
     });
 
 // Обработка данных для отправки в телеграм
-document.getElementById('submit').addEventListener('ontouchend', function() {
+document.getElementById('submit').addEventListener('click', function() {
     var obod = document.getElementById('wheelDiameter').value;
     var greb = document.getElementById('flangeThickness').value;
     var bearing = document.getElementById('bearingType').value;
@@ -42,5 +42,6 @@ document.getElementById('submit').addEventListener('ontouchend', function() {
     let data = [obod,greb,bearing,axle,form,formFactory,status,relevance]
     //var kod = document.getElementById('wheelDiameter').value;
     //var srRem = document.getElementById('wheelDiameter').value;
+    console.log(data);
     tg.sendData(JSON.stringify(data));
 });
