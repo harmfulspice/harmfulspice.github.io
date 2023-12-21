@@ -40,8 +40,20 @@ document.getElementById('submit').addEventListener('click', function() {
     var status = document.getElementById('remontType').value;
     var relevance = document.getElementById('relevanceType').value;
     let data = [obod,greb,bearing,axle,form,formFactory,status,relevance]
-    //var kod = document.getElementById('wheelDiameter').value;
-    //var srRem = document.getElementById('wheelDiameter').value;
+    var kod = document.getElementById('wheelDiameter').value;
+    var srRem = document.getElementById('wheelDiameter').value;
+    let dict = {
+        obod: obod,
+        greb: greb,
+        bearing: bearing,
+        axle: axle,
+        form: form,
+        formFactory: formFactory,
+        status: status,
+        relevance: relevance,
+        kod: kod,
+        srRem: srRem
+    }
     console.log(data);
-    tg.sendData(JSON.stringify(data));
+    tg.sendData(JSON.stringify(dict));
 });
