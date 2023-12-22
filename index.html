@@ -51,7 +51,42 @@
                         </select>
                     </div>
                     <div>
-                        <label for="bearingType">Тип подшипника:</label>
+                        <label for="remont">Вид ремонта:</label>
+                        <select id="remontType" name="remontType">
+                            <option>Средний</option>
+                            <option>Текущий</option>
+                            <option>Капитальный</option>
+                            <option>ВКМ</option>
+                            <option>БРАК</option>
+                            <option>Без ремонта</option>
+                        </select>
+                        
+                    </div>
+                </div>
+                
+                <div class="paramForm">
+                    <div>
+                        <label for="lastMark">Клеймо последнего формирования:</label>
+                        <input type="text" id="lastMark" name="lastMark" required>
+                    </div>
+                    <div>
+                        <label for="lastFormationDate">Дата последнего формирования:</label>
+                        <input type="text" id="lastFormationDate" name="lastFormationDate" placeholder="12.2023" required>
+                    </div>
+                    <div>
+                        <label for="lastMark">Клеймо последнего ремонта:</label>
+                        <input type="text" id="lastMark" name="lastMark">
+                    </div>
+                    <div>
+                        <label for="lastFormationDate">Дата последнего ремонта:</label>
+                        <input type="text" id="lastFormationDate" name="lastFormationDate">
+                    </div>
+                </div>
+            </div>
+
+            <div class="remont">
+                <div class="paramRemont">
+                    <label for="bearingType">Тип подшипника:</label>
                         <select id="bearingType" name="bearingType">
                             <option value="BRENCO">Роликовый</option>
                             <option value="BRENCO">BRENCO</option>
@@ -67,40 +102,6 @@
                             <option value="TBU ZWZ 6773">TBU ZWZ 6773</option>
                             <option value="TIMKEN">TIMKEN</option>
                         </select>
-                    </div>
-                </div>
-                
-                <div class="paramForm">
-                    <div>
-                        <label for="lastMark">Клеймо последнего формирования:</label>
-                        <input type="text" id="lastMark" name="lastMark" required>
-                    </div>
-                    <div>
-                        <label for="lastFormationDate">Дата последнего формирования:</label>
-                        <input type="text" id="lastFormationDate" name="lastFormationDate" required>
-                    </div>
-                    <div>
-                        <label for="lastMark">Клеймо последнего ремонта:</label>
-                        <input type="text" id="lastMark" name="lastMark">
-                    </div>
-                    <div>
-                        <label for="lastFormationDate">Дата последнего ремонта:</label>
-                        <input type="text" id="lastFormationDate" name="lastFormationDate">
-                    </div>
-                </div>
-            </div>
-
-            <div class="remont">
-                <div class="paramRemont">
-                    <label for="remont">Вид ремонта:</label>
-                    <select id="remontType" name="remontType">
-                        <option>Средний</option>
-                        <option>Текущий</option>
-                        <option>Капитальный</option>
-                        <option>ВКМ</option>
-                        <option>БРАК</option>
-                        <option>Без ремонта</option>
-                    </select>
                 </div>
                 <div class="paramRelevance">
                     <label for="relevance">Востребованность:</label>
@@ -111,11 +112,17 @@
                 </div>
             </div>
             <div class="kodType">
-                <label for="kod">Код неисправности:</label>
-                <select id="kod" name="kodType">
-                    <option>Востребована</option>
-                    <option>Не востребована</option>
-                </select>
+                <div class="bearerNumber">
+                    <label for="bearerNumber">Номер подшипника:</label>
+                    <input type="text" id="bearerNumber" name="bearerNumber">
+                </div>
+                <div class="kod">
+                    <label for="kod">Код неисправности:</label>
+                    <select id="kod" name="kodType">
+                        <option>Востребована</option>
+                        <option>Не востребована</option>
+                    </select>
+                </div>
             </div>
 
             <!-- Кнопка для загрузки файла -->

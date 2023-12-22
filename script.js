@@ -60,7 +60,18 @@ document.getElementById('submit').addEventListener('click', function() {
     var bearing = document.getElementById('bearingType').value;
     var axle = document.getElementById('axisType').value;
     var form = document.getElementById('lastFormationDate').value;
+    formDate = form.split(".", "2");
+    formDate[0] = Number(formDate[0])-1;
+    if (String(formDate[0]).length > 2 || String(formDate[1]).length > 4 || String(formDate[1]).length < 4 || formDate.length != 2) {
+        alert("Неправильный формат даты формирования")
+        return
+    }
+    form = new Date(formDate[1], formDate[0]);
     var formFactory = document.getElementById('lastMark').value;
+    if (formFactory == ""){
+        alert("Введите данные по заводу последнего формирования");
+        return;
+    }
     var status = document.getElementById('remontType').value;
     var relevance = document.getElementById('relevanceType').value;
     var kod = document.getElementById('kod').value;
@@ -72,6 +83,7 @@ document.getElementById('submit').addEventListener('click', function() {
         wheel = document.getElementById('numberFact').value
     }
     let dict = {
+        wheel: wheel,
         obod: obod,
         greb: greb,
         bearing: bearing,

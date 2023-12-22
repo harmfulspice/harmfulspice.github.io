@@ -93,11 +93,11 @@ button:hover {
 
 
 #bearingType{
-	font-size: 10px;
+	font-size: 12px;
 }
 
 #axisType{
-	font-size: 10px;
+	font-size: 12px;
 }
 
 .remont{
@@ -114,13 +114,25 @@ button:hover {
 }
 
 .paramRelevance{
-	width: 55vw;
+	width: calc(65vw - 15px);
 }
 
 .kodType{
-	width: calc(100vw - 41px);
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	width: 100vw;
+
 }
 
+.bearerNumber{
+	width: 30vw;
+	padding-right: 15px;
+}
+
+.kod{
+	width: calc(65vw - 15px);
+}
 
 /* Стили для кнопки загрузки файла */
 .file-upload {
