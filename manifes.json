@@ -1,0 +1,17 @@
+{
+    "short_name": "Скорочтец",
+    "name": "Скорочтец",
+    "icons": [
+      {
+        "src":"logo.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      }
+    ],
+   
+    "start_url": "/",
+    "background_color": "#7ACCE5",
+    "theme_color": "#7ACCE5",
+    "orientation": "any",
+    "display": "standalone"
+   }
