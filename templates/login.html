@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../static/css/loginStyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter" rel="stylesheet">
+	<title>Логистика КРЦ</title>
+</head>
+<body>
+	<div class="header">
+		<h1>Авторизация</h1>
+	</div>
+	{% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+	<div class="form">
+		<form action="" method="post">
+			<label for="login">Пользователь:</label>
+			<input type="text" name="username" placeholder="Логин 1С">
+			<label for="password">Пароль:</label>
+			<input type="password" name="password" placeholder="Пароль 1С">
+			<button type="submit">Войти</button>
+		</form>
+	</div>
+<script async src="../static/js/baseScript.js"></script>
+</body>
+</html>

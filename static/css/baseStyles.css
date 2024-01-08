@@ -1,0 +1,151 @@
+
+
+body{
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	background-color: #7E7E7E;
+	font-family: Inter;
+}
+
+div{
+	margin-bottom: 10px;
+	border: solid 1px;
+	border-radius: 15px;
+	background: #D9D9D9;
+}
+
+.header{
+	display: flex;
+	text-align: center;
+	font-size: 12px;
+}
+
+.search{
+	display: flex;
+	height: 8vh;
+	border: none;
+	background-color: #7E7E7E;
+}
+
+.wheelSearchText{
+	font-size: 18px;
+	width: 65%;
+	height: 70%;
+	margin: auto;
+	margin-left: 0px;
+	border: solid 1px;
+	border-radius: 15px;
+}
+
+.wheelSearchSubmit{
+	margin-right: 15px;
+	font-size: 18px;
+	box-sizing: inherit;
+	background-color: #FFFFFF;
+	height: 70%;
+	margin: auto;
+	margin-right: 0px;
+	float: right;
+	width: 25%;
+	border: solid 1px;
+	border-radius: 15px;
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+
+.vagon{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	flex-wrap: wrap;
+	background-color: #FFFFFF;
+	border: solid 1px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.visible{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #FFFFFF;
+	border: 0px;
+}
+
+.exp{
+	display: none;
+	border: 0;
+	background-color: #FFFFFF;
+	margin-bottom: 0px;
+	padding-left: 15px;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.entranceButton{
+	display: flex;
+	flex-direction: column;
+	background-color: #FFFFFF;
+}
+
+.wheels{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: #FFFFFF;
+}
+.entranceButton a{
+	text-decoration: none;
+	text-align: center;
+	background-color: #FFFFFF;
+	color: black;
+	padding: 3px;
+	border: solid 1px;
+	border-radius: 10px;
+	font-size: 14px;
+}
+
+
+.entranceButton{
+	border: none;
+}
+
+.wheels{
+	border: none;
+}
+
+.wheels label:first-child{
+	margin-top: 15px;
+}
+.wheels label{
+	margin-bottom: 10px;
+}
+.entranceButton a:first-child{
+	margin-top: 15px;
+}
+.entranceButton a{
+	margin-bottom: 9px;
+}
+
+a:active, a:hover, a:focus {
+	-webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+	-webkit-tap-highlight-color: transparent;
+    outline: 0 !important;
+    outline-offset: 0;
+	box-shadow: none;
+}
+

@@ -1,0 +1,502 @@
+[
+  [
+    {
+      "Vagon": "52894193",
+      "strNum": 4,
+      "DType": "КП",
+      "factoryGVC": "39",
+      "numberGVC": "14949",
+      "yearGVC": "2012",
+      "factory": "39",
+      "number": "14949",
+      "year": "2012",
+      "id": "ed566cb9-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "52894193",
+      "strNum": 5,
+      "DType": "КП",
+      "factoryGVC": "1164",
+      "numberGVC": "1989",
+      "yearGVC": "2007",
+      "factory": "1164",
+      "number": "1989",
+      "year": "2007",
+      "id": "ed566ccc-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "52894193",
+      "strNum": 9,
+      "DType": "КП",
+      "factoryGVC": "29",
+      "numberGVC": "752117",
+      "yearGVC": "1990",
+      "factory": "29",
+      "number": "752117",
+      "year": "1990",
+      "id": "ed566d18-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "52894193",
+      "strNum": 10,
+      "DType": "КП",
+      "factoryGVC": "29",
+      "numberGVC": "860591",
+      "yearGVC": "1999",
+      "factory": "29",
+      "number": "860591",
+      "year": "1999",
+      "id": "ed566d2b-9198-11ed-b74c-94f128a934ee"
+    }
+  ],
+  [
+    {
+      "Vagon": "66527357",
+      "strNum": 4,
+      "DType": "КП",
+      "factoryGVC": "39",
+      "numberGVC": "14949",
+      "yearGVC": "2012",
+      "factory": "39",
+      "number": "14949",
+      "year": "2012",
+      "id": "ed566cb9-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "66527357",
+      "strNum": 5,
+      "DType": "КП",
+      "factoryGVC": "1164",
+      "numberGVC": "1989",
+      "yearGVC": "2007",
+      "factory": "1164",
+      "number": "1989",
+      "year": "2007",
+      "id": "ed566ccc-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "66527357",
+      "strNum": 9,
+      "DType": "КП",
+      "factoryGVC": "29",
+      "numberGVC": "752117",
+      "yearGVC": "1990",
+      "factory": "29",
+      "number": "752117",
+      "year": "1990",
+      "id": "ed566d18-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "66527357",
+      "strNum": 10,
+      "DType": "КП",
+      "factoryGVC": "29",
+      "numberGVC": "860591",
+      "yearGVC": "1999",
+      "factory": "29",
+      "number": "860591",
+      "year": "1999",
+      "id": "ed566d2b-9198-11ed-b74c-94f128a934ee"
+    }
+  ],
+  [
+    {
+      "Vagon": "65645664",
+      "strNum": 4,
+      "DType": "КП",
+      "factoryGVC": "39",
+      "numberGVC": "14949",
+      "yearGVC": "2012",
+      "factory": "39",
+      "number": "14949",
+      "year": "2012",
+      "id": "ed566cb9-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "65645664",
+      "strNum": 5,
+      "DType": "КП",
+      "factoryGVC": "1164",
+      "numberGVC": "1989",
+      "yearGVC": "2007",
+      "factory": "1164",
+      "number": "1989",
+      "year": "2007",
+      "id": "ed566ccc-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "65645664",
+      "strNum": 9,
+      "DType": "КП",
+      "factoryGVC": "29",
+      "numberGVC": "752117",
+      "yearGVC": "1990",
+      "factory": "29",
+      "number": "752117",
+      "year": "1990",
+      "id": "ed566d18-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "65645664",
+      "strNum": 10,
+      "DType": "КП",
+      "factoryGVC": "29",
+      "numberGVC": "860591",
+      "yearGVC": "1999",
+      "factory": "29",
+      "number": "860591",
+      "year": "1999",
+      "id": "ed566d2b-9198-11ed-b74c-94f128a934ee"
+    }
+  ],
+  [
+    {
+      "Vagon": "66527357",
+      "strNum": 4,
+      "DType": "КП",
+      "factoryGVC": "39",
+      "numberGVC": "14949",
+      "yearGVC": "2012",
+      "factory": "39",
+      "number": "14949",
+      "year": "2012",
+      "id": "ed566cb9-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "66527357",
+      "strNum": 5,
+      "DType": "КП",
+      "factoryGVC": "1164",
+      "numberGVC": "1989",
+      "yearGVC": "2007",
+      "factory": "1164",
+      "number": "1989",
+      "year": "2007",
+      "id": "ed566ccc-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "66527357",
+      "strNum": 9,
+      "DType": "КП",
+      "factoryGVC": "29",
+      "numberGVC": "752117",
+      "yearGVC": "1990",
+      "factory": "29",
+      "number": "752117",
+      "year": "1990",
+      "id": "ed566d18-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "66527357",
+      "strNum": 10,
+      "DType": "КП",
+      "factoryGVC": "29",
+      "numberGVC": "860591",
+      "yearGVC": "1999",
+      "factory": "29",
+      "number": "860591",
+      "year": "1999",
+      "id": "ed566d2b-9198-11ed-b74c-94f128a934ee"
+    }
+  ],
+  [
+    {
+      "Vagon": "66527357",
+      "strNum": 4,
+      "DType": "КП",
+      "factoryGVC": "39",
+      "numberGVC": "14949",
+      "yearGVC": "2012",
+      "factory": "39",
+      "number": "14949",
+      "year": "2012",
+      "id": "ed566cb9-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "66527357",
+      "strNum": 5,
+      "DType": "КП",
+      "factoryGVC": "1164",
+      "numberGVC": "1989",
+      "yearGVC": "2007",
+      "factory": "1164",
+      "number": "1989",
+      "year": "2007",
+      "id": "ed566ccc-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "66527357",
+      "strNum": 9,
+      "DType": "КП",
+      "factoryGVC": "29",
+      "numberGVC": "752117",
+      "yearGVC": "1990",
+      "factory": "29",
+      "number": "752117",
+      "year": "1990",
+      "id": "ed566d18-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "66527357",
+      "strNum": 10,
+      "DType": "КП",
+      "factoryGVC": "29",
+      "numberGVC": "860591",
+      "yearGVC": "1999",
+      "factory": "29",
+      "number": "860591",
+      "year": "1999",
+      "id": "ed566d2b-9198-11ed-b74c-94f128a934ee"
+    }
+  ],
+  [
+    {
+      "Vagon": "66527357",
+      "strNum": 4,
+      "DType": "КП",
+      "factoryGVC": "39",
+      "numberGVC": "14949",
+      "yearGVC": "2012",
+      "factory": "39",
+      "number": "14949",
+      "year": "2012",
+      "id": "ed566cb9-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "66527357",
+      "strNum": 5,
+      "DType": "КП",
+      "factoryGVC": "1164",
+      "numberGVC": "1989",
+      "yearGVC": "2007",
+      "factory": "1164",
+      "number": "1989",
+      "year": "2007",
+      "id": "ed566ccc-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "66527357",
+      "strNum": 9,
+      "DType": "КП",
+      "factoryGVC": "29",
+      "numberGVC": "752117",
+      "yearGVC": "1990",
+      "factory": "29",
+      "number": "752117",
+      "year": "1990",
+      "id": "ed566d18-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "66527357",
+      "strNum": 10,
+      "DType": "КП",
+      "factoryGVC": "29",
+      "numberGVC": "860591",
+      "yearGVC": "1999",
+      "factory": "29",
+      "number": "860591",
+      "year": "1999",
+      "id": "ed566d2b-9198-11ed-b74c-94f128a934ee"
+    }
+  ],
+  [
+    {
+      "Vagon": "66527357",
+      "strNum": 4,
+      "DType": "КП",
+      "factoryGVC": "39",
+      "numberGVC": "14949",
+      "yearGVC": "2012",
+      "factory": "39",
+      "number": "14949",
+      "year": "2012",
+      "id": "ed566cb9-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "66527357",
+      "strNum": 5,
+      "DType": "КП",
+      "factoryGVC": "1164",
+      "numberGVC": "1989",
+      "yearGVC": "2007",
+      "factory": "1164",
+      "number": "1989",
+      "year": "2007",
+      "id": "ed566ccc-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "66527357",
+      "strNum": 9,
+      "DType": "КП",
+      "factoryGVC": "29",
+      "numberGVC": "752117",
+      "yearGVC": "1990",
+      "factory": "29",
+      "number": "752117",
+      "year": "1990",
+      "id": "ed566d18-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "66527357",
+      "strNum": 10,
+      "DType": "КП",
+      "factoryGVC": "29",
+      "numberGVC": "860591",
+      "yearGVC": "1999",
+      "factory": "29",
+      "number": "860591",
+      "year": "1999",
+      "id": "ed566d2b-9198-11ed-b74c-94f128a934ee"
+    }
+  ],
+  [
+    {
+      "Vagon": "66527357",
+      "strNum": 4,
+      "DType": "КП",
+      "factoryGVC": "39",
+      "numberGVC": "14949",
+      "yearGVC": "2012",
+      "factory": "39",
+      "number": "14949",
+      "year": "2012",
+      "id": "ed566cb9-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "66527357",
+      "strNum": 5,
+      "DType": "КП",
+      "factoryGVC": "1164",
+      "numberGVC": "1989",
+      "yearGVC": "2007",
+      "factory": "1164",
+      "number": "1989",
+      "year": "2007",
+      "id": "ed566ccc-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "66527357",
+      "strNum": 9,
+      "DType": "КП",
+      "factoryGVC": "29",
+      "numberGVC": "752117",
+      "yearGVC": "1990",
+      "factory": "29",
+      "number": "752117",
+      "year": "1990",
+      "id": "ed566d18-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "66527357",
+      "strNum": 10,
+      "DType": "КП",
+      "factoryGVC": "29",
+      "numberGVC": "860591",
+      "yearGVC": "1999",
+      "factory": "29",
+      "number": "860591",
+      "year": "1999",
+      "id": "ed566d2b-9198-11ed-b74c-94f128a934ee"
+    }
+  ],
+  [
+    {
+      "Vagon": "66527357",
+      "strNum": 4,
+      "DType": "КП",
+      "factoryGVC": "39",
+      "numberGVC": "14949",
+      "yearGVC": "2012",
+      "factory": "39",
+      "number": "14949",
+      "year": "2012",
+      "id": "ed566cb9-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "66527357",
+      "strNum": 5,
+      "DType": "КП",
+      "factoryGVC": "1164",
+      "numberGVC": "1989",
+      "yearGVC": "2007",
+      "factory": "1164",
+      "number": "1989",
+      "year": "2007",
+      "id": "ed566ccc-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "66527357",
+      "strNum": 9,
+      "DType": "КП",
+      "factoryGVC": "29",
+      "numberGVC": "752117",
+      "yearGVC": "1990",
+      "factory": "29",
+      "number": "752117",
+      "year": "1990",
+      "id": "ed566d18-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "66527357",
+      "strNum": 10,
+      "DType": "КП",
+      "factoryGVC": "29",
+      "numberGVC": "860591",
+      "yearGVC": "1999",
+      "factory": "29",
+      "number": "860591",
+      "year": "1999",
+      "id": "ed566d2b-9198-11ed-b74c-94f128a934ee"
+    }
+  ],
+  [
+    {
+      "Vagon": "66527357",
+      "strNum": 4,
+      "DType": "КП",
+      "factoryGVC": "39",
+      "numberGVC": "14949",
+      "yearGVC": "2012",
+      "factory": "39",
+      "number": "14949",
+      "year": "2012",
+      "id": "ed566cb9-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "66527357",
+      "strNum": 5,
+      "DType": "КП",
+      "factoryGVC": "1164",
+      "numberGVC": "1989",
+      "yearGVC": "2007",
+      "factory": "1164",
+      "number": "1989",
+      "year": "2007",
+      "id": "ed566ccc-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "66527357",
+      "strNum": 9,
+      "DType": "КП",
+      "factoryGVC": "29",
+      "numberGVC": "752117",
+      "yearGVC": "1990",
+      "factory": "29",
+      "number": "752117",
+      "year": "1990",
+      "id": "ed566d18-9198-11ed-b74c-94f128a934ee"
+    },
+    {
+      "Vagon": "66527357",
+      "strNum": 10,
+      "DType": "КП",
+      "factoryGVC": "29",
+      "numberGVC": "860591",
+      "yearGVC": "1999",
+      "factory": "29",
+      "number": "860591",
+      "year": "1999",
+      "id": "ed566d2b-9198-11ed-b74c-94f128a934ee"
+    }
+  ]
+]

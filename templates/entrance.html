@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../static/css/entranceStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter" rel="stylesheet">
+	<title>Логистика КРЦ</title>
+</head>
+<body>
+	<div class="header">
+		<div class="title"><h1>Входной контроль:</h1></div>
+		<div class="params">
+			<h2>КП: {{wheel}}</h2>
+			<h2>Вагон: {{vagon}}</h2>
+			<h2>Собственник: {{owner}}</h2>
+		</div>
+	</div>
+	<div class="main">
+		<div class="titleNumber">Номер КП:</div>
+        <div class="number">
+			<input type="text" class="inputNumber" disabled value="{{wheel}}">
+			<input type="checkbox" name="Совпадает с ГВЦ" checked>
+			<label for="Совпадает с ГВЦ">Совпадает с ГВЦ</label>
+		</div>
+		<div class="titleParam">Параметры КП:</div>
+		<div class="param">
+			<div class="paramLeft">
+				<div class="greb">
+					<label for="greb">Толщина гребня:</label>
+					<div class="grebNumber">
+						<input type="number" name="greb" tabindex="1">
+						<input type="number" name="greb">
+					</div>
+				</div>
+				<div class="obod">
+					<label for="obod">Ширина обода:</label>
+					<div class="obodNumber">
+						<input type="number" name="obod" tabindex="2">
+						<input type="number" name="obod">
+					</div>
+				</div>
+				<div class="formDate">
+					<label for="formDate">Дата форм-ия:</label>
+					<input type="number" name="formDate" tabindex="3">
+				</div>
+				<div class="formFactory">
+					<label for="formFactory">Завод форм-ия:</label>
+					<input type="number" name="formFactory" tabindex="4">
+				</div>
+				<div class="axleType">
+					<label for="axleType">Тип оси:</label>
+					<select>
+						<option selected>РУ1Ш</option>
+						<option>РУ1</option>
+						<option>РВ2Ш</option>
+					</select>
+				</div>
+			</div>
+			<div class="paramRight">
+				<div class="srremDate">
+					<label for="srremDate">Дата ср. ремонта:</label>
+					<input type="text" name="srremDate">
+				</div>
+				<div class="srremFactory">
+					<label for="srremFactory">Завод ср. ремонта:</label>
+					<input type="text" name="srremFactory">
+				</div>
+				<div class="bearingType">
+					<label for="bearingType">Подшипник:</label>
+					<input type="text" name="bearingType">
+				</div>
+				<div class="bearingNumber">
+					<label for="bearingNumber">Номер подшипника:</label>
+					<input type="text" name="bearingNumber" >
+				</div>
+				<div class="status">
+					<label for="status">Вид ремонта:</label>
+					<select>
+						<option selected>Средний ремонт</option>
+						<option>Текущий ремонт</option>
+						<option>ВКМ</option>
+						<option>Без ремонта</option>
+						<option>Брак</option>
+					</select>
+				</div>
+			</div>
+		</div>
+    </div>
+<script async src="../static/js/baseScript.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

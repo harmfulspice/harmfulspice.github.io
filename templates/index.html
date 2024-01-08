@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../static/css/baseStyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter" rel="stylesheet">
+	<script src="../static/js/sevice-worker.js"></script>
+	<link rel="manifest" crossorigin="use-credentials" href="/static/js/manifest.json">
+	<title>Логистика КРЦ</title>
+</head>
+<body>
+	<div class="header">
+		<h1>Рабочее место бригадира входного контроля</h1>
+	</div>
+	<div class="search">
+		<input type="text" name="wheelSearch" class="wheelSearchText" placeholder="Введите часть номера КП">
+		<input type="button" name="wheelSearch" class="wheelSearchSubmit" value="Поиск">
+	</div>
+	<div class="main">
+	{%for vagon in vagons%}
+		<div class="vagon">
+			<div class="visible">
+				<label>{{vagon}}</label>
+				<label>ДР</label>
+				<label>ТрансОйл</label>
+				<label>27.12.2023г.</label>
+			</div>
+			<div class="exp">
+				<div class="wheels">
+					<label>&#10060;{{data[vagon][0]}}</label>
+					<label>&#10060;{{data[vagon][1]}}</label>
+					<label>&#10060;{{data[vagon][2]}}</label>
+					<label>&#10060;{{data[vagon][3]}}</label>
+				</div>
+				<div class="entranceButton">
+					<a href="/entrance?wheel={{data[vagon][0]}}&vagon={{vagon}}">КМ Вход</a>
+					<a href="/entrance?wheel={{data[vagon][1]}}&vagon={{vagon}}">КМ Вход</a>
+					<a href="/entrance?wheel={{data[vagon][2]}}&vagon={{vagon}}">КМ Вход</a>
+					<a href="/entrance?wheel={{data[vagon][3]}}&vagon={{vagon}}">КМ Вход</a>
+				</div>
+			</div>
+		</div>
+		
+	{%endfor%}
+	</div>
+	<script>
+		if ('serviceWorker' in navigator) {
+			window.addEventListener('load', function() {
+				navigator.serviceWorker.register('/static/js/sevice-worker.js').then(function(registration) {
+				console.log('ServiceWorker registration successful with scope: ', registration.scope);
+			  }, function(err) {
+				console.log('ServiceWorker registration failed: ', err);
+			  }).catch(function(err) {
+				console.log(err)
+			  });
+			});
+		  } else {
+			console.log('service worker is not supported');
+		  }
+	</script>
+<script async src="../static/js/baseScript.js"></script>
+</body>
+</html>
