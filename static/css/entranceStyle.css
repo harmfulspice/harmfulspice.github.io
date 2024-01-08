@@ -37,6 +37,13 @@ body{
 	flex-direction: column;
 	font-size: 15px;
 }
+
+.main input, select{
+	border: solid 1px;
+	text-align: center;
+	border-radius: 5px;
+}
+
 .titleNumber{
 	margin-top: 10px;
 	margin-left: 15px;
@@ -110,4 +117,9 @@ body{
 	margin: 0px !important;
 	justify-content: space-around;
 	flex-direction: row !important;
+}
+
+.photo{
+	display: flex;
+	flex-direction: column;
 }

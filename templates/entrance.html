@@ -56,6 +56,13 @@
 						<option>РВ2Ш</option>
 					</select>
 				</div>
+				<div class="vostr">
+					<label for="vostr">Востребованность:</label>
+					<select>
+						<option selected>Востребована</option>
+						<option>Невостребована</option>
+					</select>
+				</div>
 			</div>
 			<div class="paramRight">
 				<div class="srremDate">
@@ -84,10 +91,22 @@
 						<option>Брак</option>
 					</select>
 				</div>
+				<div class="kod">
+					<label for="kod">Неисправность:</label>
+					<select>
+						<option selected>411</option>
+						<option>611</option>
+					</select>
+				</div>
 			</div>
 		</div>
+		<div class="photo">
+			<input type='file' id="imageFile" capture="photo" name="Приложить фото:" />
+ 			<img id="prevImage" src="#" alt="Image" />
+		</div>
     </div>
-<script async src="../static/js/baseScript.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script async src="../static/js/entranceScript.js"></script>
 </body>
 
 
